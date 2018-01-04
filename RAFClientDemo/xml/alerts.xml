@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <alerts>
+    <alert>
+      <code>NE</code>
+      <name>Notificaci&oacute;n Correo</name>
+    </alert>
+    <alert>
+      <code>NC</code>
+      <name>Notificaci&oacute;n Llamada</name>
+    </alert>
+  </alerts>

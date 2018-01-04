@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="svcCreditRules"
+    elementFormDefault="qualified"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+	<xs:element name="Credit">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="CreditAllowed"/>
+				<xs:element ref="Rules"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:element name="CreditAllowed" type="xs:boolean"/>
+	<xs:element name="Rules">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Rule" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="Rule">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ActionID"/>
+				<xs:element ref="ActionName"/>
+				<xs:element ref="Conditions"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ActionID" type="xs:integer"/>
+	<xs:element name="ActionName" type="xs:string"/>
+	<xs:element name="Conditions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="Condition"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Condition">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ConditionField"/>
+				<xs:element ref="ConditionFieldName"/>
+				<xs:element ref="ConditionOperator"/>
+				<xs:element ref="ConditionOperatorName"/>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="ConditionFieldValue"/>
+					</xs:sequence>
+					<xs:sequence>
+						<xs:element ref="ConditionFieldValueRangeBegin"/>
+						<xs:element ref="ConditionFieldValueRangeEnd"/>
+					</xs:sequence>
+				</xs:choice>
+				<xs:element minOccurs="0" ref="ConditionCurrency"/>
+				<xs:element minOccurs="0" maxOccurs="1" ref="Exceptions"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="TransactionID" type="xs:integer"/>
+	<xs:element name="ConditionField" type="xs:integer"/>
+	<xs:element name="ConditionFieldName" type="xs:string"/>
+	<xs:element name="ConditionOperator" type="xs:integer"/>
+	<xs:element name="ConditionOperatorName">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[A-Z]{2}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ConditionFieldValue">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="datatype" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="int"/>
+								<xs:enumeration value="decimal"/>
+								<xs:enumeration value="date"/>
+								<xs:enumeration value="time"/>
+								<xs:enumeration value="string"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ConditionCurrency">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[A-Z]{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ConditionFieldValueRangeBegin">
+		<xs:complexType mixed="true">
+			<xs:attribute name="datatype" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="int"/>
+						<xs:enumeration value="decimal"/>
+						<xs:enumeration value="date"/>
+						<xs:enumeration value="time"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ConditionFieldValueRangeEnd">
+		<xs:complexType mixed="true">
+			<xs:attribute name="datatype" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="int"/>
+						<xs:enumeration value="decimal"/>
+						<xs:enumeration value="date"/>
+						<xs:enumeration value="time"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Exceptions">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element minOccurs="0" ref="Exception"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="Exception">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="ExceptionField"/>
+				<xs:element ref="ExceptionFieldName"/>
+				<xs:element ref="ExceptionOperator"/>
+				<xs:element ref="ExceptionOperatorName"/>
+				<xs:choice>
+					<xs:sequence>
+						<xs:element ref="ExceptionFieldValue"/>
+					</xs:sequence>
+					<xs:sequence>
+						<xs:element ref="ExceptionFieldValueRangeBegin"/>
+						<xs:element ref="ExceptionFieldValueRangeEnd"/>
+					</xs:sequence>
+				</xs:choice>
+				<xs:element minOccurs="0" ref="ExceptionCurrency"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExceptionID" type="xs:integer"/>
+	<xs:element name="ExceptionStatus">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="A"/>
+				<xs:enumeration value="D"/>
+				<xs:enumeration value="P"/>
+				<xs:enumeration value="S"/>
+				<xs:enumeration value="X"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ExceptionField" type="xs:integer"/>
+	<xs:element name="ExceptionFieldName" type="xs:string"/>
+	<xs:element name="ExceptionOperator" type="xs:integer"/>
+	<xs:element name="ExceptionOperatorName" type="xs:string"/>
+	<xs:element name="ExceptionFieldValue">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="datatype" use="required">
+						<xs:simpleType>
+							<xs:restriction base="xs:string">
+								<xs:enumeration value="int"/>
+								<xs:enumeration value="decimal"/>
+								<xs:enumeration value="date"/>
+								<xs:enumeration value="time"/>
+								<xs:enumeration value="string"/>
+							</xs:restriction>
+						</xs:simpleType>
+					</xs:attribute>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExceptionFieldValueRangeBegin">
+		<xs:complexType mixed="true">
+			<xs:attribute name="datatype" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="int"/>
+						<xs:enumeration value="decimal"/>
+						<xs:enumeration value="date"/>
+						<xs:enumeration value="time"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="ExceptionFieldValueRangeEnd">
+		<xs:complexType mixed="true">
+			<xs:attribute name="datatype" use="required">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="int"/>
+						<xs:enumeration value="decimal"/>
+						<xs:enumeration value="date"/>
+						<xs:enumeration value="time"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:attribute>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="ExceptionCurrency">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:pattern value="[A-Z]{3}"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+
+</xs:schema>

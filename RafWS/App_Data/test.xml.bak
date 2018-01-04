@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<RAF xmlns="http://api.ifar.biz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="svcCall.xsd">
+<Request>
+<Login>
+<user>BanSolCR01</user>
+<passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase>
+</Login>
+<Parameters>
+<prmAssetTypeId>400</prmAssetTypeId>
+<prmAssetId>45B856484223A45F1BD4DA37FB8CB2AD</prmAssetId>
+<prmLanguage>es</prmLanguage>
+</Parameters>
+</Request>
+</RAF>

@@ -1,0 +1,123 @@
+[Version]
+Signature="$CHICAGO$"
+Class=USB
+ClassGUID={36FC9E60-C465-11CF-8056-444553540000}
+provider=%PROVIDER%
+
+[SourceDisksNames]
+1=%SUPREMA_INSTALL%,,,
+1=%Cyload_INSTALL%,,,
+
+[SourceDisksFiles]
+CyUsb.sys = 1
+CyUsb.spd = 1
+CyLoad.sys = 1
+%CyLoad.SCRIPTFILE% = 1
+
+[Manufacturer]
+%MFGNAME%=Suprema
+
+[Suprema]
+%VID_04B4&PID_8613.DeviceDesc%=CyUsb, USB\VID_04B4&PID_8613
+%VID_16D1&PID_0400.DeviceDesc%=CyUsb, USB\VID_16D1&PID_0400
+%DeviceDesc%=CyLoad, USB\VID_16D1&PID_0401
+
+[DestinationDirs]
+CyUsb.Files.Ext = 10,System32\Drivers
+CyLoad.Files = 10,System32\Drivers
+CyLoadFW.Files = 10,System32\Drivers
+
+[CyUsb.PreCopySection]
+HKR,,NoSetupUI,,1
+
+[CyLoad.PreCopySection]
+HKR,,NoSetupUI,,1
+
+[CyUsb.HW]
+AddReg=CyUsb.AddReg.Guid
+
+[CyUsb.NT]
+CopyFiles=CyUsb.Files.Ext
+AddReg=CyUsb.AddReg
+
+[CyUsb.NT.HW]
+AddReg=CyUsb.AddReg.Guid
+
+[CyUsb.NT.Services]
+Addservice = CyUsb, 0x00000002, CyUsb.AddService
+
+[CyUsb.AddService]
+DisplayName    = %CyUsb.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\CyUsb.sys
+LoadOrderGroup = Base
+
+[CyUsb.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,CyUsb.sys
+
+[CyUsb.Files.Ext]
+CyUsb.sys
+
+[CyUsb.AddReg.Guid]
+;HKR,,DriverGUID,,%Suprema.GUID%
+
+[CyLoad]
+CopyFiles=CyLoadFW.Files
+
+[CyLoad.HW]
+AddReg=CyLoad.AddReg.Guid
+
+[CyLoad.NT]
+CopyFiles=CyLoad.Files
+CopyFiles=CyLoadFW.Files
+AddReg=CyLoad.AddReg
+
+[CyLoad.NT.HW]
+AddReg=CyLoad.AddReg.Guid
+
+[CyLoad.NT.Services]
+Addservice = CyLoad, 0x00000002, CyLoad.AddService
+
+[CyLoad.AddService]
+DisplayName    = %CyLoad.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\CyLoad.sys
+LoadOrderGroup = Base
+
+[CyLoad.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,CyLoad.sys
+
+[CyLoad.Files]
+CyLoad.sys
+
+[CyLoadFW.Files]
+%CyLoad.SCRIPTFILE%
+
+[CyLoad.AddReg.Guid]
+HKR,,DriverGUID,,%CyLoad.GUID%
+HKR,,DriverEXECSCRIPT,,%CyLoad.SCRIPTDIR%%CyLoad.SCRIPTFILE%
+
+;---------------------------------------------------------------;
+
+[Strings]
+PROVIDER="Suprema"
+MFGNAME="Suprema"
+SUPREMA_INSTALL="Suprema USB Driver Installation Disk"
+VID_04B4&PID_8613.DeviceDesc="Cypress EZ-USB FX2LP - EEPROM missing"
+VID_16D1&PID_0400.DeviceDesc="Suprema SFR300-S(Ver.2)"
+CyUsb.SvcDesc="Suprema USB Driver"
+Suprema.GUID="{88C56824-2F44-4073-96ED-E3014DD436EF}"
+CyLoad.GUID       = "{3A7C5F60-19F3-4184-8B63-656085CF5511}"
+CyLoad.SCRIPTDIR  = "\systemroot\system32\Drivers\"
+CyLoad.SCRIPTFILE = "SFR300V2.spt"
+
+;------------MOdify these strings to match your device-------------------------------;
+CyLoad_INSTALL    = "Suprema USB Loader Driver Install"
+DeviceDesc        = "Suprema SFR300-S(Ver.2) Loader"
+CyLoad.SvcDesc    = "Suprema USB Driver Loader"

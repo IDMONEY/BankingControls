@@ -1,0 +1,53 @@
+TODO
+
+
+38:38 erick mendieta uff
+18:39:01 erick mendieta pero eso de agregar una columna
+18:39:33 erick mendieta nos botaría el ws
+18:39:39 erick mendieta y el proxy
+18:39:50 erick mendieta y la app
+18:44:14 erick mendieta podemos hacer otra cosa
+18:44:18 erick mendieta 2 tablas
+18:44:21 erick mendieta 1 de tipos
+18:44:26 erick mendieta y otra intermedia
+18:45:06 erick mendieta y que esta esté ligada a el id de rule conditions
+18:45:08 erick mendieta osea
+18:45:24 erick mendieta el id de la tabla intermedia sea igual al id de la tabla rule conditions
+18:45:30 erick mendieta así solo puede haber una instancia
+18:45:38 erick mendieta y solo estaríamos agregando
+18:45:48 erick mendieta y nada se destruye
+18:49:12 me perfecto
+18:49:57 me igual habria q 
+1. cambiar el select del webservice para incluir esta columna
+2. cambiar el xsd para incluir esta columna
+3. cambiar el manager para incluir esta columna como un combo
+18:50:27 erick mendieta el 1 es facil
+18:50:33 erick mendieta 2. no sé hacerlo
+18:50:47 me 2 yo lo hago
+18:50:45 erick mendieta 3. no estoy seguro
+
+
+Cód.	Nombre del Período
+DY	Diario
+WK	Semanal
+FN	Quincenal
+MT	Mensual
+TM	Trimestral
+SM	Semestral
+YR	Anual
+
+
+<Condition>
+ <TransactionID>5</TransactionID>
+ <ConditionField>8</ConditionField>
+ <ConditionFieldName>
+  Acumulado
+ </ConditionFieldName>
+ <ConditionPeriodType>DY</ConditionPeriodType>
+ <ConditionOperator>2</ConditionOperator>
+ <ConditionOperatorName>LT</ConditionOperatorName>
+ <ConditionFieldValue datatype="int">
+  300
+ </ConditionFieldValue>
+ <ConditionCurrency>USD</ConditionCurrency>
+</Condition>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<credittypes>
+    <credit>
+      <code>1</code>
+      <name>Cr&eacute;dito Para Vivienda</name>
+    </credit>
+    <credit>
+      <code>2</code>
+      <name>Cr&eacute;dito Para Consumo</name>
+    </credit>
+    <credit>
+      <code>3</code>
+      <name>Cr&eacute;dito Back-To-Back</name>
+    </credit>
+    <credit>
+      <code>4</code>
+      <name>Leasing</name>
+    </credit>
+  </credittypes>
+  

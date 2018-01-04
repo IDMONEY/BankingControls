@@ -1,0 +1,8 @@
+C:\RAF\RafWS\bin\RafWS.dll
+C:\RAF\RafWS\bin\RafWS.pdb
+C:\RAF\RafWS\bin\mysql.data.dll
+C:\RAF\RafWS\bin\RafLog.dll
+C:\RAF\RafWS\bin\RafLog.pdb
+C:\RAF\RafWS\obj\Debug\ResolveAssemblyReference.cache
+C:\RAF\RafWS\obj\Debug\RafWS.dll
+C:\RAF\RafWS\obj\Debug\RafWS.pdb

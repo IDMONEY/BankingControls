@@ -1,0 +1,1 @@
+﻿<%@ WebService Language="C#" CodeBehind="RAFProxy.asmx.cs" Class="RAFProxy.RAFProxy" %>

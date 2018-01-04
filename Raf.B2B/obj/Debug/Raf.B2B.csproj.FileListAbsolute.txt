@@ -1,0 +1,7 @@
+C:\RAF\Raf.B2B\bin\Debug\Raf.B2B.dll
+C:\RAF\Raf.B2B\bin\Debug\Raf.B2B.pdb
+C:\RAF\Raf.B2B\bin\Debug\RafLog.dll
+C:\RAF\Raf.B2B\bin\Debug\RafLog.pdb
+C:\RAF\Raf.B2B\obj\Debug\ResolveAssemblyReference.cache
+C:\RAF\Raf.B2B\obj\Debug\Raf.B2B.dll
+C:\RAF\Raf.B2B\obj\Debug\Raf.B2B.pdb

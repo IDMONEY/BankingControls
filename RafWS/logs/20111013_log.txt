@@ -1,0 +1,544 @@
+5:15 PM: Call GetCreditRulesParamsExample
+5:19 PM: Call GetCreditRules
+5:19 PM: Requesting  IP: 127.0.0.1
+5:19 PM: Forwarded For IP: 
+5:19 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:19 PM: CleanXml
+5:19 PM: A
+5:19 PM: A1
+5:19 PM: A2
+5:19 PM: A3
+5:19 PM: Invalid XML
+5:19 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:37 PM: Call GetCreditRules
+5:37 PM: Requesting  IP: 127.0.0.1
+5:37 PM: Forwarded For IP: 
+5:37 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:37 PM: CleanXml
+5:37 PM: A
+5:37 PM: A1
+5:37 PM: A2
+5:37 PM: A3
+5:37 PM: Invalid XML
+5:37 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:37 PM: Call GetCreditRules
+5:37 PM: Requesting  IP: 127.0.0.1
+5:37 PM: Forwarded For IP: 
+5:37 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:37 PM: CleanXml
+5:37 PM: A
+5:37 PM: A1
+5:37 PM: A2
+5:37 PM: A3
+5:37 PM: Invalid XML
+5:37 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:37 PM: Call GetCreditRules
+5:37 PM: Requesting  IP: 127.0.0.1
+5:37 PM: Forwarded For IP: 
+5:37 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:37 PM: CleanXml
+5:37 PM: A
+5:37 PM: A1
+5:37 PM: A2
+5:37 PM: A3
+5:37 PM: Invalid XML
+5:37 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:38 PM: Call GetCreditRules
+5:38 PM: Requesting  IP: 127.0.0.1
+5:38 PM: Forwarded For IP: 
+5:38 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:38 PM: CleanXml
+5:38 PM: A
+5:38 PM: A1
+5:38 PM: A2
+5:38 PM: A3
+5:38 PM: Invalid XML
+5:38 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:38 PM: Call GetCreditRules
+5:38 PM: Requesting  IP: 127.0.0.1
+5:38 PM: Forwarded For IP: 
+5:38 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:38 PM: CleanXml
+5:38 PM: A
+5:38 PM: A1
+5:38 PM: A2
+5:38 PM: A3
+5:38 PM: Invalid XML
+5:38 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:46 PM: Call GetCreditRules
+5:46 PM: Requesting  IP: 127.0.0.1
+5:46 PM: Forwarded For IP: 
+5:46 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:46 PM: CleanXml
+5:46 PM: A
+5:46 PM: A1
+5:46 PM: A2
+5:46 PM: A3
+5:46 PM: Invalid XML
+5:46 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+5:48 PM: Call GetCreditRules
+5:48 PM: Requesting  IP: 127.0.0.1
+5:48 PM: Forwarded For IP: 
+5:48 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+5:48 PM: CleanXml
+5:48 PM: A
+5:49 PM: A1
+6:17 PM: A2
+6:17 PM: A3
+6:17 PM: Invalid XML
+6:17 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>Unkown Error.</ErrorMessage></Status><Credit /></Response></RAF>
+6:17 PM: Call GetCreditRules
+6:17 PM: Requesting  IP: 127.0.0.1
+6:17 PM: Forwarded For IP: 
+6:17 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+6:17 PM: CleanXml
+6:17 PM: A
+6:17 PM: A1
+6:18 PM: A2
+6:18 PM: B
+6:18 PM: C
+6:18 PM: C9
+6:18 PM: C1
+6:18 PM: C2
+6:18 PM: D
+6:18 PM: DB Response : <Response><ResponseID>98716</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>value</Credit></Response>
+6:18 PM: D1
+6:18 PM: FLOW1
+6:18 PM: ErrCode.InnerText 0
+6:18 PM: EA
+6:18 PM: E
+6:18 PM: E1
+6:18 PM: E2
+6:18 PM: E3
+6:18 PM: FLOW2
+6:18 PM: F1
+6:18 PM: F2
+6:18 PM: MALFORMED_RULES
+6:18 PM: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>201</ErrorCode><ErrorName>MALFORMED_RULES</ErrorName><ErrorMessage>The 'Credit' element is not declared. Character Position: 2</ErrorMessage></Status><Credit><Credit>value</Credit></Credit></Response></RAF>
+6:18 PM: F3
+6:19 PM: Call GetCreditRules
+6:19 PM: Requesting  IP: 127.0.0.1
+6:19 PM: Forwarded For IP: 
+6:19 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+6:19 PM: CleanXml
+6:19 PM: A
+6:19 PM: A1
+6:19 PM: A2
+6:19 PM: B
+6:19 PM: C
+6:20 PM: C9
+6:20 PM: C1
+6:20 PM: C2
+6:20 PM: D
+6:20 PM: DB Response : <Response><ResponseID>98717</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>value</Credit></Response>
+6:20 PM: D1
+6:21 PM: FLOW1
+6:21 PM: ErrCode.InnerText 0
+6:21 PM: EA
+6:21 PM: E
+6:21 PM: E1
+6:21 PM: E2
+6:21 PM: E3
+6:21 PM: FLOW2
+6:21 PM: F1
+6:22 PM: F2
+6:22 PM: MALFORMED_RULES
+6:22 PM: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>201</ErrorCode><ErrorName>MALFORMED_RULES</ErrorName><ErrorMessage>The 'Credit' element is not declared. Character Position: 2</ErrorMessage></Status><Credit><Credit>value</Credit></Credit></Response></RAF>
+6:22 PM: F3
+6:47 PM: Call GetCreditRules
+6:47 PM: Requesting  IP: 127.0.0.1
+6:47 PM: Forwarded For IP: 
+6:47 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+6:47 PM: CleanXml
+6:47 PM: A
+6:47 PM: A1
+6:48 PM: A2
+6:48 PM: B
+6:48 PM: C
+6:48 PM: C9
+6:48 PM: C1
+6:48 PM: C2
+6:48 PM: D
+6:48 PM: DB Response : <Response><ResponseID>98718</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+6:48 PM: D1
+6:48 PM: FLOW1
+6:48 PM: ErrCode.InnerText 0
+6:48 PM: EA
+6:48 PM: E
+6:48 PM: E1
+6:48 PM: E2
+6:48 PM: E3
+6:48 PM: FLOW2
+6:48 PM: F1
+6:48 PM: F2
+6:48 PM: MALFORMED_RULES
+6:48 PM: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>201</ErrorCode><ErrorName>MALFORMED_RULES</ErrorName><ErrorMessage>The 'Credit' element is not declared. Character Position: 2</ErrorMessage></Status><Credit><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Credit></Response></RAF>
+6:48 PM: F3
+6:53 PM: Call GetCreditRules
+6:53 PM: Requesting  IP: 127.0.0.1
+6:53 PM: Forwarded For IP: 
+6:53 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+6:53 PM: CleanXml
+6:53 PM: A
+6:53 PM: A1
+6:53 PM: A2
+6:53 PM: B
+6:53 PM: C
+6:53 PM: C9
+6:53 PM: C1
+6:53 PM: C2
+6:53 PM: D
+6:53 PM: DB Response : <Response><ResponseID>98719</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+6:53 PM: D1
+6:53 PM: FLOW1
+6:53 PM: ErrCode.InnerText 0
+6:53 PM: EA
+6:53 PM: E
+6:53 PM: E1
+6:53 PM: E2
+6:53 PM: E3
+6:53 PM: FLOW2
+6:53 PM: F1
+6:53 PM: F2
+6:53 PM: MALFORMED_RULES
+6:53 PM: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>201</ErrorCode><ErrorName>MALFORMED_RULES</ErrorName><ErrorMessage>The 'Credit' element is not declared. Character Position: 2</ErrorMessage></Status><Credit><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Credit></Response></RAF>
+6:53 PM: F3
+6:55 PM: Call GetCreditRules
+6:55 PM: Requesting  IP: 127.0.0.1
+6:55 PM: Forwarded For IP: 
+6:55 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+6:55 PM: CleanXml
+6:55 PM: A
+6:55 PM: A1
+6:55 PM: A2
+6:55 PM: B
+6:55 PM: C
+6:55 PM: C9
+6:55 PM: C1
+6:55 PM: C2
+6:55 PM: D
+6:55 PM: DB Response : <Response><ResponseID>98720</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+6:55 PM: D1
+6:59 PM: FLOW1
+6:59 PM: ErrCode.InnerText 0
+6:59 PM: EA
+6:59 PM: E
+6:59 PM: E1
+6:59 PM: E2
+6:59 PM: E3
+6:59 PM: FLOW2
+6:59 PM: F1
+6:59 PM: F2
+6:59 PM: MALFORMED_RULES
+6:59 PM: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>201</ErrorCode><ErrorName>MALFORMED_RULES</ErrorName><ErrorMessage>The 'Credit' element is not declared. Character Position: 2</ErrorMessage></Status><Credit><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Credit></Response></RAF>
+6:59 PM: F3
+7:15 PM: Call GetCreditRules
+7:15 PM: Requesting  IP: 127.0.0.1
+7:15 PM: Forwarded For IP: 
+7:15 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+7:15 PM: CleanXml
+7:15 PM: A
+7:15 PM: A1
+7:15 PM: A2
+7:15 PM: B
+7:15 PM: C
+7:15 PM: C9
+7:15 PM: C1
+7:15 PM: C2
+7:15 PM: D
+7:15 PM: DB Response : <Response><ResponseID>98721</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+7:15 PM: D1
+7:15 PM: FLOW1
+7:15 PM: ErrCode.InnerText 0
+7:15 PM: EA
+7:15 PM: E
+7:15 PM: E1
+7:15 PM: E2
+7:15 PM: E3
+7:15 PM: FLOW2
+7:15 PM: F1
+7:15 PM: ERROR: There are multiple root elements. Line 1, position 37.
+7:15 PM: XmlResponse: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>1</ErrorCode><ErrorName></ErrorName><ErrorMessage>There are multiple root elements. Line 1, position 37.</ErrorMessage></Status><Credit /></Response></RAF>
+7:20 PM: Call GetCreditRules
+7:20 PM: Requesting  IP: 127.0.0.1
+7:20 PM: Forwarded For IP: 
+7:20 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+7:20 PM: CleanXml
+7:20 PM: A
+7:20 PM: A1
+7:20 PM: A2
+7:20 PM: B
+7:20 PM: C
+7:20 PM: C9
+7:20 PM: C1
+7:20 PM: C2
+7:20 PM: D
+7:20 PM: DB Response : <Response><ResponseID>98722</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+7:20 PM: D1
+7:20 PM: FLOW1
+7:20 PM: ErrCode.InnerText 0
+7:20 PM: EA
+7:20 PM: E
+7:20 PM: E1
+7:20 PM: E2
+7:20 PM: E3
+7:20 PM: FLOW2
+7:20 PM: F1
+8:01 PM: FLOW3
+8:01 PM: G1
+8:01 PM: FLOW4
+8:01 PM: FLOW5
+8:01 PM: XmlResponse: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID>98722</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Credit></Response></RAF>
+8:03 PM: Call GetCreditRules
+8:03 PM: Requesting  IP: 127.0.0.1
+8:03 PM: Forwarded For IP: 
+8:03 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+8:03 PM: CleanXml
+8:03 PM: A
+8:03 PM: A1
+8:03 PM: A2
+8:03 PM: B
+8:03 PM: C
+8:03 PM: C9
+8:03 PM: C1
+8:03 PM: C2
+8:03 PM: D
+8:03 PM: DB Response : <Response><ResponseID>98723</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+8:03 PM: D1
+8:03 PM: FLOW1
+8:03 PM: ErrCode.InnerText 0
+8:03 PM: EA
+8:03 PM: E
+8:03 PM: E1
+8:03 PM: E2
+8:03 PM: E3
+8:03 PM: FLOW2
+8:03 PM: F1
+8:04 PM: FLOW3
+8:04 PM: G1
+8:04 PM: FLOW4
+8:04 PM: FLOW5
+8:04 PM: XmlResponse: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID>98723</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Credit></Response></RAF>
+8:06 PM: Call GetCreditRules
+8:06 PM: Requesting  IP: 127.0.0.1
+8:06 PM: Forwarded For IP: 
+8:06 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+8:06 PM: CleanXml
+8:06 PM: A
+8:06 PM: A1
+8:06 PM: A2
+8:06 PM: B
+8:06 PM: C
+8:06 PM: C9
+8:06 PM: C1
+8:06 PM: C2
+8:06 PM: D
+8:06 PM: DB Response : <Response><ResponseID>98724</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+8:06 PM: D1
+8:06 PM: FLOW1
+8:06 PM: ErrCode.InnerText 0
+8:06 PM: EA
+8:06 PM: E
+8:06 PM: E1
+8:06 PM: E2
+8:06 PM: E3
+8:06 PM: FLOW2
+8:06 PM: F1
+8:06 PM: FLOW3
+8:06 PM: G1
+8:06 PM: FLOW4
+8:06 PM: FLOW5
+8:06 PM: XmlResponse: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID>98724</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Response></RAF>
+8:46 PM: Call GetCreditRules
+8:46 PM: Requesting  IP: 127.0.0.1
+8:46 PM: Forwarded For IP: 
+8:46 PM: ParamsString: <RAF><Request><Login><user>BanSolCR01</user><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+8:46 PM: CleanXml
+8:46 PM: A
+8:46 PM: A1
+8:46 PM: A2
+8:46 PM: B
+8:46 PM: C
+8:46 PM: C9
+8:46 PM: C1
+8:46 PM: C2
+8:46 PM: D
+8:46 PM: DB Response : <Response><ResponseID>98726</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit>
+<CreditAllowed>true</CreditAllowed>
+<Rules>
+  <Rule>
+      <ActionID>1</ActionID>
+      <ActionName>Permitir</ActionName>
+      <Conditions>
+	  <Condition>
+	      <ConditionField>1</ConditionField>
+	      <ConditionFieldName>Monto</ConditionFieldName>
+	      <ConditionOperator>2</ConditionOperator>
+	      <ConditionOperatorName>LT</ConditionOperatorName>
+	      <ConditionFieldValue datatype="int">2000</ConditionFieldValue>
+	      <ConditionCurrency>USD</ConditionCurrency>
+	  </Condition>
+      </Conditions>
+  </Rule>
+</Rules>
+
+</Credit></Response>
+8:46 PM: D1
+8:46 PM: FLOW1
+8:46 PM: ErrCode.InnerText 0
+8:46 PM: EA
+8:46 PM: E
+8:46 PM: E1
+8:46 PM: E2
+8:46 PM: E3
+8:46 PM: FLOW2
+8:46 PM: F1
+8:46 PM: FLOW3
+8:46 PM: G1
+8:46 PM: FLOW4
+8:46 PM: FLOW5
+8:46 PM: XmlResponse: <RAF><Request><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request><Response><ResponseID>98726</ResponseID><Status><Success>true</Success><ErrorCode>0</ErrorCode><ErrorName></ErrorName><ErrorMessage></ErrorMessage></Status><Credit><CreditAllowed>true</CreditAllowed><Rules><Rule><ActionID>1</ActionID><ActionName>Permitir</ActionName><Conditions><Condition><ConditionField>1</ConditionField><ConditionFieldName>Monto</ConditionFieldName><ConditionOperator>2</ConditionOperator><ConditionOperatorName>LT</ConditionOperatorName><ConditionFieldValue datatype="int">2000</ConditionFieldValue><ConditionCurrency>USD</ConditionCurrency></Condition></Conditions></Rule></Rules></Credit></Response></RAF>
+8:52 PM: Call GetCreditRules
+8:52 PM: Requesting  IP: 127.0.0.1
+8:52 PM: Forwarded For IP: 
+8:52 PM: ParamsString: <RAF><Request><Login><user1>BanSolCR01</user1><passphrase>1bb094a47dcca0d2e8cd5b26c1</passphrase></Login><Parameters><prmCustomerId>1-1029-0835</prmCustomerId><prmCustomerIdCountry>CRI</prmCustomerIdCountry><prmCreditTypeId>1</prmCreditTypeId><prmLanguage>es</prmLanguage></Parameters></Request></RAF>
+8:52 PM: CleanXml
+8:52 PM: A
+8:52 PM: A1
+8:52 PM: A2
+8:52 PM: A3
+8:53 PM: Invalid XML
+8:53 PM: <RAF><Request><Parameters /></Request><Response><ResponseID /><Status><Success>false</Success><ErrorCode>100</ErrorCode><ErrorName>INVALID_XML_CALL</ErrorName><ErrorMessage>The element 'Login' has invalid child element 'user1'. List of possible elements expected: 'user'. Character Position: 23</ErrorMessage></Status><Credit /></Response></RAF>

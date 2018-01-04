@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <fields>
+    <field>
+      <code>1</code>
+      <name>Igual A</name>
+    </field>
+    <field>
+      <code>2</code>
+      <name>No Igual A</name>
+    </field>
+    <field>
+      <code>3</code>
+      <name>Mayor A</name>
+    </field>
+    <field>
+      <code>4</code>
+      <name>Menor A</name>
+    </field>
+    <field>
+      <code>5</code>
+      <name>Mayor O Igual A</name>
+    </field>
+    <field>
+      <code>6</code>
+      <name>Menor O Igual A</name>
+    </field>
+    <field>
+      <code>7</code>
+      <name>Entre</name>
+    </field>
+  </fields>

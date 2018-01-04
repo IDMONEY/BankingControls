@@ -1,0 +1,7 @@
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\bin\Debug\DataBaseConexion.exe
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\bin\Debug\DataBaseConexion.pdb
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\obj\Debug\DataBaseConexion.Properties.Resources.resources
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\obj\Debug\DataBaseConexion.csproj.GenerateResource.Cache
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\obj\Debug\DataBaseConexion.exe
+C:\Users\Erick\Documents\Visual Studio 2008\Projects\DataBaseConexion\DataBaseConexion\obj\Debug\DataBaseConexion.pdb

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://ws.raf.bytesw.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="ByteRafWS" targetNamespace="http://ws.raf.bytesw.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://192.168.2.118:8080/ByteRAFWS/ByteRafWS?xsd=1" namespace="http://ws.raf.bytesw.com/" />
+    </xsd:schema>
+  </types>
+  <message name="RafNotify">
+    <part name="parameters" element="tns:RafNotify" />
+  </message>
+  <message name="RafNotifyResponse">
+    <part name="parameters" element="tns:RafNotifyResponse" />
+  </message>
+  <portType name="ByteRafWS">
+    <operation name="RafNotify">
+      <input wsam:Action="http://ws.raf.bytesw.com/ByteRafWS/RafNotifyRequest" message="tns:RafNotify" />
+      <output wsam:Action="http://ws.raf.bytesw.com/ByteRafWS/RafNotifyResponse" message="tns:RafNotifyResponse" />
+    </operation>
+  </portType>
+  <binding name="ByteRafWSPortBinding" type="tns:ByteRafWS">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="RafNotify">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ByteRafWS">
+    <port name="ByteRafWSPort" binding="tns:ByteRafWSPortBinding">
+      <soap:address location="http://192.168.2.118:8080/ByteRAFWS/ByteRafWS" />
+    </port>
+  </service>
+</definitions>

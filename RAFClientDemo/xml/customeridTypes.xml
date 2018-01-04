@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fields>
+	<field value="0" text=""></field>
+	<field value="1" text="C&#233;dula Identidad"></field>
+	<field value="2" text="C&#233;dula Jur&#237;dica"></field>
+	<field value="3" text="Pasaporte"></field>
+	<field value="4" text="C&#233;dula Residencia"></field>
+	<field value="5" text="C&#233;dula Refugiado"></field>
+</fields>
+
+
+

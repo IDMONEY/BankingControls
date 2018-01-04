@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <recogtypes>
+    <recog>
+      <code>PI</code>
+      <name>Requiere Presentaci&oacute;n Personal</name>
+    </recog>
+    <recog>
+      <code>BI</code>
+      <name>Reconocimiento Biom&eacute;recogico</name>
+    </recog>
+    <recog>
+      <code>BM</code>
+      <name>Reconocimiento Biom&eacute;recogico multicliente</name>
+    </recog>
+  </recogtypes>

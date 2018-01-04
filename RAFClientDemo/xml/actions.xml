@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <actions>
+    <action>
+      <code>1</code>
+      <name>Permitir</name>
+    </action>
+    <action>
+      <code>2</code>
+      <name>Denegar</name>
+    </action>
+  </actions>

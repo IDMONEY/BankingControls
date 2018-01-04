@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{33937E52-834F-4DEF-8E08-08278BBE7A29}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RAFManagerWeb</RootNamespace>
+    <AssemblyName>RAFManagerWeb</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="Telerik.Web.UI, Version=2011.1.322.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Telerik\Bin35\Telerik.Web.UI.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="assetRules.aspx.cs">
+      <DependentUpon>assetRules.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="assetRules.aspx.designer.cs">
+      <DependentUpon>assetRules.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AuxiliarForm.aspx.cs">
+      <DependentUpon>AuxiliarForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AuxiliarForm.aspx.designer.cs">
+      <DependentUpon>AuxiliarForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="commonMethods.cs" />
+    <Compile Include="customerEnroll.aspx.cs">
+      <DependentUpon>customerEnroll.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customerEnroll.aspx.designer.cs">
+      <DependentUpon>customerEnroll.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customerInfo.aspx.cs">
+      <DependentUpon>customerInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customerInfo.aspx.designer.cs">
+      <DependentUpon>customerInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customerSearch.aspx.cs">
+      <DependentUpon>customerSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customerSearch.aspx.designer.cs">
+      <DependentUpon>customerSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseConnection.cs" />
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newRole.aspx.cs">
+      <DependentUpon>newRole.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newRole.aspx.designer.cs">
+      <DependentUpon>newRole.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="newUser.aspx.cs">
+      <DependentUpon>newUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="newUser.aspx.designer.cs">
+      <DependentUpon>newUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RAFMembershipProvider.cs" />
+    <Compile Include="RAFSecurity.cs" />
+    <Compile Include="RoleSearch.aspx.cs">
+      <DependentUpon>RoleSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RoleSearch.aspx.designer.cs">
+      <DependentUpon>RoleSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="rolModifications.aspx.cs">
+      <DependentUpon>rolModifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rolModifications.aspx.designer.cs">
+      <DependentUpon>rolModifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ui\master\Default.Master.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ui\master\Default.Master.designer.cs">
+      <DependentUpon>Default.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserModifications.aspx.cs">
+      <DependentUpon>UserModifications.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserModifications.aspx.designer.cs">
+      <DependentUpon>UserModifications.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UsersSearch.aspx.cs">
+      <DependentUpon>UsersSearch.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UsersSearch.aspx.designer.cs">
+      <DependentUpon>UsersSearch.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\RAFProxy\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assetRules.aspx" />
+    <Content Include="AuxiliarForm.aspx" />
+    <Content Include="customerEnroll.aspx" />
+    <Content Include="customerInfo.aspx" />
+    <Content Include="customerSearch.aspx" />
+    <Content Include="default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="logout.aspx" />
+    <Content Include="newRole.aspx" />
+    <Content Include="newUser.aspx" />
+    <Content Include="RoleSearch.aspx" />
+    <Content Include="rolModifications.aspx" />
+    <Content Include="ui\css\main.css" />
+    <Content Include="ui\img\00_bg.jpg" />
+    <Content Include="ui\img\01_logo.gif" />
+    <Content Include="ui\img\01_main_bg.gif" />
+    <Content Include="ui\img\01_main_bg.jpg" />
+    <Content Include="ui\img\01_menu_bg.gif" />
+    <Content Include="ui\img\10_f_bg.gif" />
+    <Content Include="ui\img\10_f_logo.gif" />
+    <Content Include="ui\img\icons\alert.png" />
+    <Content Include="ui\img\icons\approved.png" />
+    <Content Include="ui\img\icons\attention.png" />
+    <Content Include="ui\img\icons\button_Cancel.png" />
+    <Content Include="ui\img\icons\button_Check.png" />
+    <Content Include="ui\img\icons\button_Delete.png" />
+    <Content Include="ui\img\icons\button_Edit.png" />
+    <Content Include="ui\img\icons\button_Search.png" />
+    <Content Include="ui\img\icons\help.png" />
+    <Content Include="ui\img\icons\logout.png" />
+    <Content Include="ui\img\icons\notice.png" />
+    <Content Include="ui\img\icons\preferences.png" />
+    <Content Include="ui\img\icons\report.png" />
+    <Content Include="ui\img\icons\system.png" />
+    <Content Include="ui\img\icons\userAdd.png" />
+    <Content Include="ui\img\icons\userSearch.png" />
+    <Content Include="ui\master\Default.Master" />
+    <Content Include="UserModifications.aspx" />
+    <Content Include="UsersSearch.aspx" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\RAFProxy\RAFProxy.disco" />
+    <None Include="Web References\RAFProxy\RAFProxy.wsdl" />
+    <None Include="Web References\RAFProxy\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost:4611/RAFProxy.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\RAFProxy\</RelPath>
+      <UpdateFromURL>http://localhost:4611/RAFProxy.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>RAFManagerWeb_RAFProxy_RAFProxy</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Raf.B2B\Raf.B2B.csproj">
+      <Project>{E9C17C4D-B83A-43A7-B0CC-B66DC928770C}</Project>
+      <Name>Raf.B2B</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RAFCommon\RAFCommon.csproj">
+      <Project>{34C712DE-09D2-4BF2-88C8-E945C6B7A7F8}</Project>
+      <Name>RAFCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RAFCrypto\RAFCrypto.csproj">
+      <Project>{409D66CE-F5A4-46F1-8407-135FC69C2B58}</Project>
+      <Name>RAFCrypto</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RafLog\RafLog.csproj">
+      <Project>{13DB2AE4-A562-46AE-9BF2-88D8AA37908A}</Project>
+      <Name>RafLog</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>32113</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties UseJQuerySupport="False" UseAjaxifiedTemplates="False" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

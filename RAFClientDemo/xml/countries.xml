@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fields>
+<field value="004" text="Afganist&aacute;n" ></field>
+<field value="248" text="&Aring;land" ></field>
+<field value="008" text="Albania" ></field>
+<field value="276" text="Alemania" ></field>
+<field value="020" text="Andorra" ></field>
+<field value="024" text="Angola" ></field>
+<field value="660" text="Anguila" ></field>
+<field value="010" text="Ant&aacute;rtida" ></field>
+<field value="028" text="Antigua y Barbuda" ></field>
+<field value="530" text="Antillas Neerlandesas" ></field>
+<field value="682" text="Arabia Saudita" ></field>
+<field value="012" text="Argelia" ></field>
+<field value="032" text="Argentina" ></field>
+<field value="051" text="Armenia" ></field>
+<field value="533" text="Aruba" ></field>
+<field value="036" text="Auscountryalia" ></field>
+<field value="040" text="Auscountryia" ></field>
+<field value="031" text="Azerbaiy&aacute;n" ></field>
+<field value="044" text="Bahamas" ></field>
+<field value="048" text="Bahr&eacute;in" ></field>
+<field value="050" text="Bangladesh" ></field>
+<field value="052" text="Barbados" ></field>
+<field value="112" text="Bielorrusia" ></field>
+<field value="056" text="B&eacute;lgica" ></field>
+<field value="084" text="Belice" ></field>
+<field value="204" text="Ben&iacute;n" ></field>
+<field value="060" text="Bermudas" ></field>
+<field value="064" text="But&aacute;n" ></field>
+<field value="068" text="Bolivia" ></field>
+<field value="070" text="Bosnia y Herzegovina" ></field>
+<field value="072" text="Botsuana" ></field>
+<field value="074" text="Isla Bouvet" ></field>
+<field value="076" text="Brasil" ></field>
+<field value="096" text="Brun&eacute;i" ></field>
+<field value="100" text="Bulgaria" ></field>
+<field value="854" text="Burkina Faso" ></field>
+<field value="108" text="Burundi" ></field>
+<field value="132" text="Cabo Verde" ></field>
+<field value="136" text="Islas Caim&aacute;n" ></field>
+<field value="116" text="Camboya" ></field>
+<field value="120" text="Camer&uacute;n" ></field>
+<field value="124" text="Canad&aacute;" ></field>
+<field value="140" text="Rep&uacute;blica Cencountryoafricana" ></field>
+<field value="148" text="Chad" ></field>
+<field value="203" text="Rep&uacute;blica Checa" ></field>
+<field value="152" text="Chile" ></field>
+<field value="156" text="China" ></field>
+<field value="196" text="Chipre" ></field>
+<field value="166" text="Islas Cocos" ></field>
+<field value="170" text="Colombia" ></field>
+<field value="174" text="Comoras" ></field>
+<field value="178" text="Rep&uacute;blica del Congo" ></field>
+<field value="180" text="Rep&uacute;blica del Congo" ></field>
+<field value="184" text="Islas Cook" ></field>
+<field value="408" text="Corea del Norte" ></field>
+<field value="410" text="Corea del Sur" ></field>
+<field value="384" text="Costa de Marfil" ></field>
+<field value="188" text="Costa Rica" ></field>
+<field value="191" text="Croacia" ></field>
+<field value="192" text="Cuba" ></field>
+<field value="208" text="Dinamarca" ></field>
+<field value="212" text="Dominica" ></field>
+<field value="214" text="Rep&uacute;blica Dominicana" ></field>
+<field value="218" text="Ecuador" ></field>
+<field value="818" text="Egipto" ></field>
+<field value="222" text="El Salvador" ></field>
+<field value="784" text="Emiratos &Aacute;rabes Unidos" ></field>
+<field value="232" text="Ericountryea" ></field>
+<field value="703" text="Eslovaquia" ></field>
+<field value="705" text="Eslovenia" ></field>
+<field value="724" text="Espa&ntilde;a" ></field>
+<field value="840" text="Estados Unidos" ></field>
+<field value="581" text="Islas ulcountryamarinas de Estados Unidos" ></field>
+<field value="233" text="Estonia" ></field>
+<field value="231" text="Etiop&iacute;a" ></field>
+<field value="234" text="Islas Feroe" ></field>
+<field value="608" text="Filipinas" ></field>
+<field value="246" text="Finlandia" ></field>
+<field value="242" text="Fiyi" ></field>
+<field value="250" text="Francia" ></field>
+<field value="266" text="Gab&oacute;n" ></field>
+<field value="270" text="Gambia" ></field>
+<field value="268" text="Georgia" ></field>
+<field value="239" text="Islas Georgias del Sur y Sandwich del Sur" ></field>
+<field value="288" text="Ghana" ></field>
+<field value="292" text="Gibraltar" ></field>
+<field value="308" text="Granada" ></field>
+<field value="300" text="Grecia" ></field>
+<field value="304" text="Groenlandia" ></field>
+<field value="312" text="Guadalupe" ></field>
+<field value="316" text="Guam" ></field>
+<field value="320" text="Guatemala" ></field>
+<field value="254" text="Guayana Francesa" ></field>
+<field value="831" text="Guernsey" ></field>
+<field value="324" text="Guinea" ></field>
+<field value="226" text="Guinea Ecuatorial" ></field>
+<field value="624" text="Guinea-Bissau" ></field>
+<field value="328" text="Guyana" ></field>
+<field value="332" text="Hait&iacute;" ></field>
+<field value="334" text="Islas Heard y McDonald" ></field>
+<field value="340" text="Honduras" ></field>
+<field value="344" text="Hong Kong" ></field>
+<field value="348" text="Hungr&iacute;a" ></field>
+<field value="356" text="India" ></field>
+<field value="360" text="Indonesia" ></field>
+<field value="364" text="Ir&aacute;n" ></field>
+<field value="368" text="Iraq" ></field>
+<field value="372" text="Irlanda" ></field>
+<field value="352" text="Islandia" ></field>
+<field value="376" text="Israel" ></field>
+<field value="380" text="Italia" ></field>
+<field value="388" text="Jamaica" ></field>
+<field value="392" text="Jap&oacute;n" ></field>
+<field value="832" text="Jersey" ></field>
+<field value="400" text="Jordania" ></field>
+<field value="398" text="Kazajist&aacute;n" ></field>
+<field value="404" text="Kenia" ></field>
+<field value="417" text="Kirguist&aacute;n" ></field>
+<field value="296" text="Kiribati" ></field>
+<field value="414" text="Kuwait" ></field>
+<field value="418" text="Laos" ></field>
+<field value="426" text="Lesoto" ></field>
+<field value="428" text="Letonia" ></field>
+<field value="422" text="L&iacute;bano" ></field>
+<field value="430" text="Liberia" ></field>
+<field value="434" text="Libia" ></field>
+<field value="438" text="Liechtenstein" ></field>
+<field value="440" text="Lituania" ></field>
+<field value="442" text="Luxemburgo" ></field>
+<field value="446" text="Macao" ></field>
+<field value="807" text="Macedonia" ></field>
+<field value="450" text="Madagascar" ></field>
+<field value="458" text="Malasia" ></field>
+<field value="454" text="Malaui" ></field>
+<field value="462" text="Maldivas" ></field>
+<field value="466" text="Mal&iacute;" ></field>
+<field value="470" text="Malta" ></field>
+<field value="238" text="Islas Malvinas" ></field>
+<field value="833" text="Isla de Man" ></field>
+<field value="580" text="Islas Marianas del Norte" ></field>
+<field value="504" text="Marruecos" ></field>
+<field value="584" text="Islas Marshall" ></field>
+<field value="474" text="Martinica" ></field>
+<field value="480" text="Mauricio" ></field>
+<field value="478" text="Mauritania" ></field>
+<field value="175" text="Mayotte" ></field>
+<field value="484" text="M&eacute;xico" ></field>
+<field value="583" text="Micronesia" ></field>
+<field value="498" text="Moldavia" ></field>
+<field value="492" text="M&oacute;naco" ></field>
+<field value="496" text="Mongolia" ></field>
+<field value="499" text="Montenegro" ></field>
+<field value="500" text="Montserrat" ></field>
+<field value="508" text="Mozambique" ></field>
+<field value="104" text="Birmania" ></field>
+<field value="516" text="Namibia" ></field>
+<field value="520" text="Nauru" ></field>
+<field value="162" text="Isla de Navidad" ></field>
+<field value="524" text="Nepal" ></field>
+<field value="558" text="Nicaragua" ></field>
+<field value="562" text="N&iacute;ger" ></field>
+<field value="566" text="Nigeria" ></field>
+<field value="570" text="Niue" ></field>
+<field value="574" text="Norfolk" ></field>
+<field value="578" text="Noruega" ></field>
+<field value="540" text="Nueva Caledonia" ></field>
+<field value="554" text="Nueva Zelanda" ></field>
+<field value="512" text="Om&aacute;n" ></field>
+<field value="528" text="Pa&iacute;ses Bajos" ></field>
+<field value="586" text="Pakist&aacute;n" ></field>
+<field value="585" text="Palaos" ></field>
+<field value="275" text="Territorios palestinos" ></field>
+<field value="591" text="Panam&aacute;" ></field>
+<field value="598" text="Pap&uacute;a Nueva Guinea" ></field>
+<field value="600" text="Paraguay" ></field>
+<field value="604" text="Per&uacute;" ></field>
+<field value="612" text="Islas Pitcairn" ></field>
+<field value="258" text="Polinesia Francesa" ></field>
+<field value="616" text="Polonia" ></field>
+<field value="620" text="Portugal" ></field>
+<field value="630" text="Puerto Rico" ></field>
+<field value="634" text="Qatar" ></field>
+<field value="826" text="Reino Unido" ></field>
+<field value="638" text="Reuni&oacute;n" ></field>
+<field value="646" text="Ruanda" ></field>
+<field value="642" text="Rumania" ></field>
+<field value="643" text="Rusia" ></field>
+<field value="732" text="Sahara Occidental" ></field>
+<field value="090" text="Islas Salom&oacute;n" ></field>
+<field value="882" text="Samoa" ></field>
+<field value="016" text="Samoa Americana" ></field>
+<field value="659" text="San Crist&oacute;bal y Nieves" ></field>
+<field value="674" text="San Marino" ></field>
+<field value="666" text="San Pedro y Miquel&oacute;n" ></field>
+<field value="670" text="San Vicente y las Granadinas" ></field>
+<field value="654" text="Santa Helena" ></field>
+<field value="662" text="Santa Luc&iacute;a" ></field>
+<field value="678" text="Santo Tom&eacute; y Pr&iacute;ncipe" ></field>
+<field value="686" text="Senegal" ></field>
+<field value="688" text="Serbia" ></field>
+<field value="690" text="Seychelles" ></field>
+<field value="694" text="Sierra Leona" ></field>
+<field value="702" text="Singapur" ></field>
+<field value="760" text="Siria" ></field>
+<field value="706" text="Somalia" ></field>
+<field value="144" text="Sri Lanka" ></field>
+<field value="748" text="Suazilandia" ></field>
+<field value="710" text="Sud&aacute;frica" ></field>
+<field value="736" text="Sud&aacute;n" ></field>
+<field value="752" text="Suecia" ></field>
+<field value="756" text="Suiza" ></field>
+<field value="740" text="Surinam" ></field>
+<field value="744" text="Svalbard y Jan Mayen" ></field>
+<field value="764" text="Tailandia" ></field>
+<field value="158" text="Rep&uacute;blica de China" ></field>
+<field value="834" text="Tanzania" ></field>
+<field value="762" text="Tayikist&aacute;n" ></field>
+<field value="086" text="Territorio Brit&aacute;nico del Oc&eacute;ano &Iacute;ndico" ></field>
+<field value="260" text="Territorios Auscountryales Franceses" ></field>
+<field value="626" text="Timor Oriental" ></field>
+<field value="768" text="Togo" ></field>
+<field value="772" text="Tokelau" ></field>
+<field value="776" text="Tonga" ></field>
+<field value="780" text="countryinidad y Tobago" ></field>
+<field value="788" text="T&uacute;nez" ></field>
+<field value="796" text="Islas Turcas y Caicos" ></field>
+<field value="795" text="Turkmenist&aacute;n" ></field>
+<field value="792" text="Turqu&iacute;a" ></field>
+<field value="798" text="Tuvalu" ></field>
+<field value="804" text="Ucrania" ></field>
+<field value="800" text="Uganda" ></field>
+<field value="858" text="Uruguay" ></field>
+<field value="860" text="Uzbekist&aacute;n" ></field>
+<field value="548" text="Vanuatu" ></field>
+<field value="336" text="Ciudad del Vaticano" ></field>
+<field value="862" text="Venezuela" ></field>
+<field value="704" text="Vietnam" ></field>
+<field value="092" text="Islas V&iacute;rgenes Brit&aacute;nicas" ></field>
+<field value="850" text="Islas V&iacute;rgenes Estadounidenses" ></field>
+<field value="876" text="Wallis y Futuna" ></field>
+<field value="887" text="Yemen" ></field>
+<field value="262" text="Yibuti" ></field>
+<field value="894" text="Zambia" ></field>
+<field value="716" text="Zimbabue" ></field>
+</fields>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <fields>
+    <field>
+      <code>1</code>
+      <name>Monto</name>
+    </field>
+    <field>
+      <code>2</code>
+      <name>Horario</name>
+    </field>
+    <field>
+      <code>3</code>
+      <name>Moneda</name>
+    </field>
+    <field>
+      <code>4</code>
+      <name>Nombre del solicitante</name>
+    </field>
+    <field>
+      <code>5</code>
+      <name>Identificaci&oacute;n del solicitante</name>
+    </field>
+    <field>
+      <code>6</code>
+      <name>Nombre del destinatario</name>
+    </field>
+    <field>
+      <code>7</code>
+      <name>Identificaci&oacute;n del destinatario</name>
+    </field>
+    <field>
+      <code>8</code>
+      <name>Monto Acumulado Periodo</name>
+    </field>
+    <field>
+      <code>9</code>
+      <name>Num fieldansacciones Periodo</name>
+    </field>
+    <field>
+      <code>10</code>
+      <name>Pa&iacute;s de Origen</name>
+    </field>    
+  </fields>

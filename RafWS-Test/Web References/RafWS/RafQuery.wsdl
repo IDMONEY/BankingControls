@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://api.ifar.biz/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://api.ifar.biz/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://api.ifar.biz/">
+      <s:element name="GetAssetRulesParamsResult">
+        <s:complexType mixed="true">
+          <s:sequence>
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAssetRulesString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAssetRulesStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAssetRulesStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAssetRulesNoValString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAssetRulesNoValStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAssetRulesNoValStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAssetRules">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Params">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetAssetRulesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAssetRulesResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetAssetRulesParamsSoapIn" />
+  <wsdl:message name="GetAssetRulesParamsSoapOut">
+    <wsdl:part name="GetAssetRulesParamsResult" element="tns:GetAssetRulesParamsResult" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAssetRulesString" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAssetRulesStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesNoValStringSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAssetRulesNoValString" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesNoValStringSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAssetRulesNoValStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAssetRules" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAssetRulesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesParamsHttpGetIn" />
+  <wsdl:message name="GetAssetRulesParamsHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesStringHttpGetIn">
+    <wsdl:part name="xmlString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesStringHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesNoValStringHttpGetIn">
+    <wsdl:part name="xmlString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesNoValStringHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesParamsHttpPostIn" />
+  <wsdl:message name="GetAssetRulesParamsHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesStringHttpPostIn">
+    <wsdl:part name="xmlString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesStringHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesNoValStringHttpPostIn">
+    <wsdl:part name="xmlString" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetAssetRulesNoValStringHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="RafQuerySoap">
+    <wsdl:operation name="GetAssetRulesParams">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Crea el documento XML utilizado para llamar a GetAssetRules / Creates the XMLDocument used to call GetAssetRules</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesParamsSoapIn" />
+      <wsdl:output message="tns:GetAssetRulesParamsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- DEBUG ONLY - </wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesStringSoapIn" />
+      <wsdl:output message="tns:GetAssetRulesStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- DEBUG ONLY -</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesNoValStringSoapIn" />
+      <wsdl:output message="tns:GetAssetRulesNoValStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRules">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Consulta las reglas establecidas para un activo / Queries the rules assigned to an asset</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesSoapIn" />
+      <wsdl:output message="tns:GetAssetRulesSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RafQueryHttpGet">
+    <wsdl:operation name="GetAssetRulesParams">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Crea el documento XML utilizado para llamar a GetAssetRules / Creates the XMLDocument used to call GetAssetRules</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesParamsHttpGetIn" />
+      <wsdl:output message="tns:GetAssetRulesParamsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- DEBUG ONLY - </wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesStringHttpGetIn" />
+      <wsdl:output message="tns:GetAssetRulesStringHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- DEBUG ONLY -</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesNoValStringHttpGetIn" />
+      <wsdl:output message="tns:GetAssetRulesNoValStringHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RafQueryHttpPost">
+    <wsdl:operation name="GetAssetRulesParams">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Crea el documento XML utilizado para llamar a GetAssetRules / Creates the XMLDocument used to call GetAssetRules</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesParamsHttpPostIn" />
+      <wsdl:output message="tns:GetAssetRulesParamsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- DEBUG ONLY - </wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesStringHttpPostIn" />
+      <wsdl:output message="tns:GetAssetRulesStringHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">- DEBUG ONLY -</wsdl:documentation>
+      <wsdl:input message="tns:GetAssetRulesNoValStringHttpPostIn" />
+      <wsdl:output message="tns:GetAssetRulesNoValStringHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RafQuerySoap" type="tns:RafQuerySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAssetRulesParams">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <soap:operation soapAction="http://api.ifar.biz/GetAssetRulesString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <soap:operation soapAction="http://api.ifar.biz/GetAssetRulesNoValString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRules">
+      <soap:operation soapAction="http://api.ifar.biz/GetAssetRules" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RafQuerySoap12" type="tns:RafQuerySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetAssetRulesParams">
+      <soap12:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <soap12:operation soapAction="http://api.ifar.biz/GetAssetRulesString" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <soap12:operation soapAction="http://api.ifar.biz/GetAssetRulesNoValString" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRules">
+      <soap12:operation soapAction="http://api.ifar.biz/GetAssetRules" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RafQueryHttpGet" type="tns:RafQueryHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetAssetRulesParams">
+      <http:operation location="/GetAssetRulesParams" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <http:operation location="/GetAssetRulesString" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <http:operation location="/GetAssetRulesNoValString" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RafQueryHttpPost" type="tns:RafQueryHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetAssetRulesParams">
+      <http:operation location="/GetAssetRulesParams" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesString">
+      <http:operation location="/GetAssetRulesString" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAssetRulesNoValString">
+      <http:operation location="/GetAssetRulesNoValString" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RafQuery">
+    <wsdl:port name="RafQuerySoap" binding="tns:RafQuerySoap">
+      <soap:address location="http://190.14.206.26/apitest13/RafQuery.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RafQuerySoap12" binding="tns:RafQuerySoap12">
+      <soap12:address location="http://190.14.206.26/apitest13/RafQuery.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RafQueryHttpGet" binding="tns:RafQueryHttpGet">
+      <http:address location="http://190.14.206.26/apitest13/RafQuery.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RafQueryHttpPost" binding="tns:RafQueryHttpPost">
+      <http:address location="http://190.14.206.26/apitest13/RafQuery.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

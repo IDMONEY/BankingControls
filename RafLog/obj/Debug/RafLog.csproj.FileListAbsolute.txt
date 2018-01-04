@@ -1,0 +1,6 @@
+C:\RAF\RafLog\bin\Debug\RafLog.dll
+C:\RAF\RafLog\bin\Debug\RafLog.pdb
+C:\RAF\RafLog\bin\Debug\log4net.dll
+C:\RAF\RafLog\obj\Debug\ResolveAssemblyReference.cache
+C:\RAF\RafLog\obj\Debug\RafLog.dll
+C:\RAF\RafLog\obj\Debug\RafLog.pdb

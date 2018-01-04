@@ -1,0 +1,10 @@
+<publishData>
+  <publishTarget publishUrl="C:\Publish\RAF\RafProxy\">
+    <file relUrl="log.config" publishTime="08/16/2010 18:32:02" />
+    <file relUrl="bin/log4net.dll" publishTime="03/30/2006 13:24:28" />
+    <file relUrl="bin/RAFProxy.pdb" publishTime="09/07/2010 19:00:40" />
+    <file relUrl="bin/RAFProxy.dll" publishTime="09/07/2010 19:00:42" />
+    <file relUrl="RAFProxy.asmx" publishTime="08/16/2010 18:40:54" />
+    <file relUrl="Web.config" publishTime="08/30/2010 19:46:12" />
+  </publishTarget>
+</publishData>

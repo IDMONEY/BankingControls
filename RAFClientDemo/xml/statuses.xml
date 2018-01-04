@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<statuses>
+    <status>
+      <code>A</code>
+      <name>Activo</name>
+    </status>
+    <status>
+      <code>D</code>
+      <name>Inactivo</name>
+    </status>
+    <status>
+      <code>P</code>
+      <name>Pendiente</name>
+    </status>
+    <status>
+      <code>S</code>
+      <name>Suspendido</name>
+    </status>
+    <status>
+      <code>X</code>
+      <name>Expirado</name>
+    </status>
+  </statuses>
+  

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<channels>
+<channel>
+<code>1</code>
+<name>Caja</name>
+</channel>
+<channel>
+<code>2</code>
+<name>Servicio Cliente</name>
+</channel>
+<channel>
+<code>3</code>
+<name>Punto de Venta</name>
+</channel>
+<channel>
+<code>4</code>
+<name>Internet</name>
+</channel>
+<channel>
+<code>5</code>
+<name>Cajero Autom&aacute;tico</name>
+</channel>
+<channel>
+<code>6</code>
+<name>Cajero Autom&aacute;tico (red externa)</name>
+</channel>
+</channels>

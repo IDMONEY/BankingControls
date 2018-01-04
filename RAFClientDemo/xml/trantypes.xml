@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+  <trantypeantypes>
+    <trantype>
+      <code>1</code>
+      <name>Debito</name>
+    </trantype>
+    <trantype>
+      <code>2</code>
+      <name>Cr&eacute;dito</name>
+    </trantype>
+    <trantype>
+      <code>3</code>
+      <name>trantypeansferencia</name>
+    </trantype>
+    <trantype>
+      <code>4</code>
+      <name>Cobro Intereses</name>
+    </trantype>
+    <trantype>
+      <code>5</code>
+      <name>trantypeaspaso</name>
+    </trantype>
+    <trantype>
+      <code>6</code>
+      <name>Debito Internacional</name>
+    </trantype>
+    <trantype>
+      <code>7</code>
+      <name>Cr&eacute;dito Internacional</name>
+    </trantype>
+    <trantype>
+      <code>8</code>
+      <name>trantypeansferencia Cuenta Propia</name>
+    </trantype>
+    <trantype>
+      <code>9</code>
+      <name>trantypeansferencia Cuenta Autorizada</name>
+    </trantype>
+    <trantype>
+      <code>10</code>
+      <name>Pignoraci&oacute;n</name>
+    </trantype>
+  </trantypeantypes>

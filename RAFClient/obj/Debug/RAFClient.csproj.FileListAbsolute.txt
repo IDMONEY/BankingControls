@@ -1,0 +1,16 @@
+C:\RAF\RAFClient\bin\Debug\RAFClient.exe.config
+C:\RAF\RAFClient\bin\Debug\RAFClient.exe
+C:\RAF\RAFClient\bin\Debug\RAFClient.pdb
+C:\RAF\RAFClient\bin\Debug\log4net.dll
+C:\RAF\RAFClient\bin\Debug\mysql.data.dll
+C:\RAF\RAFClient\obj\Debug\ResolveAssemblyReference.cache
+C:\RAF\RAFClient\obj\Debug\RAFClient.bioFinger.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.bioLogin.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.clientAdd.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.Login.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.Main.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.Properties.Resources.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.splash.resources
+C:\RAF\RAFClient\obj\Debug\RAFClient.csproj.GenerateResource.Cache
+C:\RAF\RAFClient\obj\Debug\RAFClient.exe
+C:\RAF\RAFClient\obj\Debug\RAFClient.pdb

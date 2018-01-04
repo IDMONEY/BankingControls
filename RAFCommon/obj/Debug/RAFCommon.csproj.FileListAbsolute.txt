@@ -1,0 +1,7 @@
+C:\RAF\RAFCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\RAF\RAFCommon\bin\Debug\RAFCommon.dll
+C:\RAF\RAFCommon\bin\Debug\RAFCommon.pdb
+C:\RAF\RAFCommon\bin\Debug\RAFCrypto.dll
+C:\RAF\RAFCommon\bin\Debug\RAFCrypto.pdb
+C:\RAF\RAFCommon\obj\Debug\RAFCommon.dll
+C:\RAF\RAFCommon\obj\Debug\RAFCommon.pdb

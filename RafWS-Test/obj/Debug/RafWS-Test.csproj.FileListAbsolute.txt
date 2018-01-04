@@ -1,0 +1,5 @@
+C:\RAF\RafWS-Test\bin\RafWS-Test.dll
+C:\RAF\RafWS-Test\bin\RafWS-Test.pdb
+C:\RAF\RafWS-Test\obj\Debug\ResolveAssemblyReference.cache
+C:\RAF\RafWS-Test\obj\Debug\RafWS-Test.dll
+C:\RAF\RafWS-Test\obj\Debug\RafWS-Test.pdb

@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="CustomerInsertParams">
+        <s:complexType />
+      </s:element>
+      <s:element name="CustomerInsertParamsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerInsertParamsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Params">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerInsertResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerGetDetails">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="custID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="langid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerGetDetailsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerGetDetailsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerGetAssets">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="custID" type="s:int" />
+            <s:element minOccurs="1" maxOccurs="1" name="langid" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerGetAssetsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerGetAssetsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerSearchParams">
+        <s:complexType />
+      </s:element>
+      <s:element name="CustomerSearchParamsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerSearchParamsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerSearchString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerSearchStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerSearchStringResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerSearch">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Params">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CustomerSearchResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CustomerSearchResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssetInsertParams">
+        <s:complexType />
+      </s:element>
+      <s:element name="AssetInsertParamsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AssetInsertParamsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssetInsertString">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssetInsertStringResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AssetInsertStringResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssetInsert">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Params">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AssetInsertResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="AssetInsertResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="testDBCnx">
+        <s:complexType />
+      </s:element>
+      <s:element name="testDBCnxResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="testDBCnxResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="guiGetFieldsByLanguage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="languageID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="registrarID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="registrarKey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="guiGetFieldsByLanguageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="guiGetFieldsByLanguageResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="CustomerInsertParamsSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerInsertParams" />
+  </wsdl:message>
+  <wsdl:message name="CustomerInsertParamsSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerInsertParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CustomerInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerInsert" />
+  </wsdl:message>
+  <wsdl:message name="CustomerInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="CustomerGetDetailsSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerGetDetails" />
+  </wsdl:message>
+  <wsdl:message name="CustomerGetDetailsSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerGetDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CustomerGetAssetsSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerGetAssets" />
+  </wsdl:message>
+  <wsdl:message name="CustomerGetAssetsSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerGetAssetsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CustomerSearchParamsSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerSearchParams" />
+  </wsdl:message>
+  <wsdl:message name="CustomerSearchParamsSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerSearchParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="CustomerSearchStringSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerSearchString" />
+  </wsdl:message>
+  <wsdl:message name="CustomerSearchStringSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerSearchStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="CustomerSearchSoapIn">
+    <wsdl:part name="parameters" element="tns:CustomerSearch" />
+  </wsdl:message>
+  <wsdl:message name="CustomerSearchSoapOut">
+    <wsdl:part name="parameters" element="tns:CustomerSearchResponse" />
+  </wsdl:message>
+  <wsdl:message name="AssetInsertParamsSoapIn">
+    <wsdl:part name="parameters" element="tns:AssetInsertParams" />
+  </wsdl:message>
+  <wsdl:message name="AssetInsertParamsSoapOut">
+    <wsdl:part name="parameters" element="tns:AssetInsertParamsResponse" />
+  </wsdl:message>
+  <wsdl:message name="AssetInsertStringSoapIn">
+    <wsdl:part name="parameters" element="tns:AssetInsertString" />
+  </wsdl:message>
+  <wsdl:message name="AssetInsertStringSoapOut">
+    <wsdl:part name="parameters" element="tns:AssetInsertStringResponse" />
+  </wsdl:message>
+  <wsdl:message name="AssetInsertSoapIn">
+    <wsdl:part name="parameters" element="tns:AssetInsert" />
+  </wsdl:message>
+  <wsdl:message name="AssetInsertSoapOut">
+    <wsdl:part name="parameters" element="tns:AssetInsertResponse" />
+  </wsdl:message>
+  <wsdl:message name="testDBCnxSoapIn">
+    <wsdl:part name="parameters" element="tns:testDBCnx" />
+  </wsdl:message>
+  <wsdl:message name="testDBCnxSoapOut">
+    <wsdl:part name="parameters" element="tns:testDBCnxResponse" />
+  </wsdl:message>
+  <wsdl:message name="guiGetFieldsByLanguageSoapIn">
+    <wsdl:part name="parameters" element="tns:guiGetFieldsByLanguage" />
+  </wsdl:message>
+  <wsdl:message name="guiGetFieldsByLanguageSoapOut">
+    <wsdl:part name="parameters" element="tns:guiGetFieldsByLanguageResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RAFProxySoap">
+    <wsdl:operation name="CustomerInsertParams">
+      <wsdl:input message="tns:CustomerInsertParamsSoapIn" />
+      <wsdl:output message="tns:CustomerInsertParamsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CustomerInsert">
+      <wsdl:input message="tns:CustomerInsertSoapIn" />
+      <wsdl:output message="tns:CustomerInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CustomerGetDetails">
+      <wsdl:input message="tns:CustomerGetDetailsSoapIn" />
+      <wsdl:output message="tns:CustomerGetDetailsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CustomerGetAssets">
+      <wsdl:input message="tns:CustomerGetAssetsSoapIn" />
+      <wsdl:output message="tns:CustomerGetAssetsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearchParams">
+      <wsdl:input message="tns:CustomerSearchParamsSoapIn" />
+      <wsdl:output message="tns:CustomerSearchParamsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearchString">
+      <wsdl:input message="tns:CustomerSearchStringSoapIn" />
+      <wsdl:output message="tns:CustomerSearchStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearch">
+      <wsdl:input message="tns:CustomerSearchSoapIn" />
+      <wsdl:output message="tns:CustomerSearchSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsertParams">
+      <wsdl:input message="tns:AssetInsertParamsSoapIn" />
+      <wsdl:output message="tns:AssetInsertParamsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsertString">
+      <wsdl:input message="tns:AssetInsertStringSoapIn" />
+      <wsdl:output message="tns:AssetInsertStringSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsert">
+      <wsdl:input message="tns:AssetInsertSoapIn" />
+      <wsdl:output message="tns:AssetInsertSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="testDBCnx">
+      <wsdl:input message="tns:testDBCnxSoapIn" />
+      <wsdl:output message="tns:testDBCnxSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="guiGetFieldsByLanguage">
+      <wsdl:input message="tns:guiGetFieldsByLanguageSoapIn" />
+      <wsdl:output message="tns:guiGetFieldsByLanguageSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RAFProxySoap" type="tns:RAFProxySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CustomerInsertParams">
+      <soap:operation soapAction="http://tempuri.org/CustomerInsertParams" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerInsert">
+      <soap:operation soapAction="http://tempuri.org/CustomerInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerGetDetails">
+      <soap:operation soapAction="http://tempuri.org/CustomerGetDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerGetAssets">
+      <soap:operation soapAction="http://tempuri.org/CustomerGetAssets" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearchParams">
+      <soap:operation soapAction="http://tempuri.org/CustomerSearchParams" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearchString">
+      <soap:operation soapAction="http://tempuri.org/CustomerSearchString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearch">
+      <soap:operation soapAction="http://tempuri.org/CustomerSearch" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsertParams">
+      <soap:operation soapAction="http://tempuri.org/AssetInsertParams" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsertString">
+      <soap:operation soapAction="http://tempuri.org/AssetInsertString" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsert">
+      <soap:operation soapAction="http://tempuri.org/AssetInsert" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testDBCnx">
+      <soap:operation soapAction="http://tempuri.org/testDBCnx" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiGetFieldsByLanguage">
+      <soap:operation soapAction="http://tempuri.org/guiGetFieldsByLanguage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RAFProxySoap12" type="tns:RAFProxySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CustomerInsertParams">
+      <soap12:operation soapAction="http://tempuri.org/CustomerInsertParams" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerInsert">
+      <soap12:operation soapAction="http://tempuri.org/CustomerInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerGetDetails">
+      <soap12:operation soapAction="http://tempuri.org/CustomerGetDetails" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerGetAssets">
+      <soap12:operation soapAction="http://tempuri.org/CustomerGetAssets" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearchParams">
+      <soap12:operation soapAction="http://tempuri.org/CustomerSearchParams" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearchString">
+      <soap12:operation soapAction="http://tempuri.org/CustomerSearchString" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CustomerSearch">
+      <soap12:operation soapAction="http://tempuri.org/CustomerSearch" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsertParams">
+      <soap12:operation soapAction="http://tempuri.org/AssetInsertParams" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsertString">
+      <soap12:operation soapAction="http://tempuri.org/AssetInsertString" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AssetInsert">
+      <soap12:operation soapAction="http://tempuri.org/AssetInsert" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="testDBCnx">
+      <soap12:operation soapAction="http://tempuri.org/testDBCnx" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="guiGetFieldsByLanguage">
+      <soap12:operation soapAction="http://tempuri.org/guiGetFieldsByLanguage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RAFProxy">
+    <wsdl:port name="RAFProxySoap" binding="tns:RAFProxySoap">
+      <soap:address location="http://localhost:4611/RAFProxy.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RAFProxySoap12" binding="tns:RAFProxySoap12">
+      <soap12:address location="http://localhost:4611/RAFProxy.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

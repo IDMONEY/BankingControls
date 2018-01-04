@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<fields>
+	<field value="100" text="Cuenta Corriente" ></field>
+	<field value="200" text="Cuenta De Ahorros" ></field>
+	<field value="300" text="Tarjeta de Cr&#232;dito" ></field>
+	<field value="400" text="Tarjeta de D&#232;bito" ></field>
+	<field value="500" text="Certificado De Inversi&#242;n" ></field>
+	<field value="600" text="Acci&#242;n Burs&#225;til" ></field>
+	<field value="700" text="Fondo de Pensiones" ></field>
+	<field value="800" text="Fondo de Inversi&#242;n Financiero" ></field>
+	<field value="900" text="Fondo de Inversi&#242;n No Financiero" ></field>
+	<field value="1000" text="Fideicomiso" ></field>
+	<field value="1100" text="P&#242;liza de Seguro" ></field>
+</fields>

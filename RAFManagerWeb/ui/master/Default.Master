@@ -1,0 +1,193 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="RAFManagerWeb.Default" %>
+
+<%@ Register assembly="Telerik.Web.UI" namespace="Telerik.Web.UI" tagprefix="telerik" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Registro de Activos Financieros</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+<telerik:RadStyleSheetManager id="RadStyleSheetManager2" runat="server" />    
+</head>
+<body>
+    <form id="form1" runat="server">
+	<telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+		<Scripts>
+			<%--Needed for JavaScript IntelliSense in VS2010--%>
+			<%--For VS2008 replace RadScriptManager with ScriptManager--%>
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.Core.js" />
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQuery.js" />
+			<asp:ScriptReference Assembly="Telerik.Web.UI" Name="Telerik.Web.UI.Common.jQueryInclude.js" />
+		</Scripts>
+	</telerik:RadScriptManager>
+	<telerik:RadSkinManager ID="RadSkinManager1" Runat="server" Skin="Office2007">
+	</telerik:RadSkinManager>	
+    <telerik:RadFormDecorator ID="RadFormDecorator1" runat="server" 
+        Skin="Office2007" />
+    <div class="main">
+        <div class="header">
+            <div class="header_resize">
+                <div class="logo"><img src="/ui/img/01_logo.gif" alt="Registro de Activos Financieros" border="0" width="316" height="77"/></div>
+                <div class="clr"></div>
+                <div class="menu_nav">
+                <telerik:RadMenu ID="navMenu" runat="server" Skin="Web20">
+<CollapseAnimation Type="OutQuint" Duration="200"></CollapseAnimation>
+                    <Items>
+                        <telerik:RadMenuItem runat="server" Enabled="false" ID="SecCustomerEnroll" ImageUrl="~/ui/img/icons/userAdd.png" 
+                            NavigateUrl="~/customerEnroll.aspx" Text="Matricular Nuevo Cliente">
+                        </telerik:RadMenuItem>
+                        <telerik:RadMenuItem runat="server" Enabled="false" ID="SecCustomerSearch" ImageUrl="~/ui/img/icons/userSearch.png" 
+                            NavigateUrl="~/customerSearch.aspx" Text="Buscar Cliente">
+                        </telerik:RadMenuItem>
+                        <telerik:RadMenuItem runat="server" IsSeparator="True">
+                        </telerik:RadMenuItem>
+<%--
+                        <telerik:RadMenuItem runat="server" IsSeparator="True">
+                        </telerik:RadMenuItem>
+                        <telerik:RadMenuItem runat="server" Enabled="false"  ID="SecReport" ImageUrl="~/ui/img/icons/report.png" 
+                            Text="Reportes">
+                            <Items>
+                                <telerik:RadMenuItem Enabled="false"  ID="CatConsultas" runat="server" Text="Consultas">
+                                    <Items>
+                                        <telerik:RadMenuItem Enabled="false"  ID="PageVolumenConsultas" runat="server" Text="Volumen de Consultas">
+                                        </telerik:RadMenuItem>
+                                    </Items>
+                                </telerik:RadMenuItem>
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatMatriculas" Text="Matrículas">
+                                    <Items>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageMatriculaUsuarios" Text="Matrículas Usuarios">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageMatriculaActivos" Text="Matrículas Activos">
+                                        </telerik:RadMenuItem>
+                                    </Items>
+                                </telerik:RadMenuItem>
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatAuditoria" Text="Auditoria">
+                                    <Items>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageIngresoUsuarios" Text="Ingreso Usuarios">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageAccesoClientes" Text="Acceso a Clientes">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageEdiciones" Text="Ediciones">
+                                        </telerik:RadMenuItem>
+                                    </Items>
+                                </telerik:RadMenuItem>
+                            </Items>
+                        </telerik:RadMenuItem>
+--%>                        
+                        <telerik:RadMenuItem runat="server" Height="20px" 
+                            ImageUrl="~/ui/img/icons/preferences.png" Enabled="false" ID="SecConfiguration" Text="Configuración">
+                            <Items>
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatControlAcceso" Text="Control de Acceso">
+                                    <Items>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="CatUsuarios" Text="Usuarios">
+                                            <Items>
+                                                <telerik:RadMenuItem runat="server" Enabled="false" ID="PageBusquedaUsuarios" NavigateUrl="~/UsersSearch.aspx"
+                                                 Text="Buscar Usuario">
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" Enabled="false" ID="PageCreacionUsuarios" NavigateUrl="~/newUser.aspx"
+                                                Text="Nuevo Usuario">
+                                                </telerik:RadMenuItem>
+                                            </Items>
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="CatRoles" Text="Roles">
+                                            <Items>
+                                                <telerik:RadMenuItem runat="server" Enabled="false" ID="PageBuscarRol" NavigateUrl="~/RoleSearch.aspx" Text="Buscar Rol">
+                                                </telerik:RadMenuItem>
+                                                <telerik:RadMenuItem runat="server" Enabled="false" ID="PageCreacionRoles" NavigateUrl="~/newRole.aspx"  Text="Nuevo Rol">
+                                                </telerik:RadMenuItem>
+                                            </Items>
+                                        </telerik:RadMenuItem>
+<%--                                        <telerik:RadMenuItem runat="server" IsSeparator="True">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageGestionDerechos" Text="Gestión de Derechos">
+                                        </telerik:RadMenuItem>--%>
+                                        
+<%--                                        <telerik:RadMenuItem runat="server" IsSeparator="True">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PagePoliticasSeguridad" Text="Politicas de Seguridad">
+                                        </telerik:RadMenuItem>--%>
+                                    </Items>
+                                </telerik:RadMenuItem>
+                                <%-- 
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatServicios" Text="Servicio">
+                                    <Items>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageValoresDefecto" Text="Valores por Defecto">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" IsSeparator="True">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageActivos" Text="Activos">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageCanales" Text="Canales">
+                                        </telerik:RadMenuItem>
+                                        <telerik:RadMenuItem runat="server" Enabled="false" ID="PageTransacciones" Text="Transacciones">
+                                        </telerik:RadMenuItem>
+                                    </Items>
+                                </telerik:RadMenuItem>
+                                --%>
+                            </Items>
+                        </telerik:RadMenuItem>
+                        <%-- 
+                        <telerik:RadMenuItem runat="server" Enabled="false" ID="SecSystem" ImageUrl="~/ui/img/icons/system.png" 
+                            Text="Sistema">
+                            <Items>
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatUsuariosSesion" Text="Usuarios en Sesión">
+                                </telerik:RadMenuItem>
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatEstadoServicio" Text="Estado del Servicio">
+                                </telerik:RadMenuItem>
+                                <telerik:RadMenuItem runat="server" Enabled="false" ID="CatBitacoraErrores" Text="Bitácora de Errores">
+                                </telerik:RadMenuItem>
+                            </Items>
+                        </telerik:RadMenuItem>
+                        <telerik:RadMenuItem runat="server" IsSeparator="True">
+                        </telerik:RadMenuItem>
+                        <telerik:RadMenuItem runat="server" ImageUrl="~/ui/img/icons/help.png" 
+                            Text="Ayuda">
+                        </telerik:RadMenuItem>
+                        --%>
+                        <telerik:RadMenuItem runat="server" ImageUrl="~/ui/img/icons/logout.png" 
+                            NavigateUrl="~/logout.aspx" PostBack="False" Text="Salir">
+                        </telerik:RadMenuItem>
+                    </Items>
+                </telerik:RadMenu>
+                </div>
+            </div>
+        </div>
+        <div class="clr">
+        </div>
+        <div class="content">
+            <div class="content_resize">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                rt
+                </asp:ContentPlaceHolder>
+                <div class="clr"></div>
+            </div>
+        </div>
+        <div class="fbg">
+            <div class="fbg_resize">
+                <div class="col c1">
+                    Derechos Reservados © 2007 International Financial Asset Registry Corporation.
+                    <br />
+                    RAF® es una marca registrada de International Financial Asset Registry Corporation (IFAR).
+                </div>
+                <div class="col c2">&nbsp;</div>
+                <div class="col c3"><img src="/ui/img/10_f_logo.gif" alt="IFAR Logo" border="0" /></div>
+                <div class="clr">
+                </div>
+            </div>
+            <div class="clr">
+            </div>
+            <div class="footer">
+                <p class="lf">
+                    &nbsp;</p>
+                <p class="rf">
+                    RAF Manager. v 0.8 beta</p>
+                <div class="clr">
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
